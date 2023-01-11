@@ -1,0 +1,64 @@
+//Q.1
+import java.util.Scanner;
+public class Main {
+public static void main(String[] args) {
+Scanner scn = new Scanner(System.in);
+String first_name = scn.next();
+String last_name = scn.next();
+int roll_number = scn.nextInt();
+String field_of_interest = scn.next();
+System.out.println("Name: " + first_name + " " + last_name);
+System.out.println("Roll Number: " + roll_number);
+System.out.println("Field of interest: " + field_of_interest);
+}
+}
+//Q.2
+import java.util.Scanner;
+public class Main {
+public static void main(String[] args) {
+Scanner scn = new Scanner(System.in);
+String first = scn.nextLine();
+String last = scn.nextLine();
+System.out.println(first + last);
+}
+}
+//Q.3
+import java.util.Scanner;
+public class Main {
+public static void main(String[] args) {
+Scanner scn = new Scanner(System.in);
+int mark1 = scn.nextInt();
+int mark2 = scn.nextInt();
+int mark3 = scn.nextInt();
+int total_marks = mark1 + mark2 + mark3;
+int percentage = (total_marks / 3);
+System.out.println(total_marks);
+System.out.println(percentage + "%");
+}
+}
+//Q.4
+import java.util.Scanner;
+public class Main {
+public static void main(String[] args) {
+Scanner scn = new Scanner(System.in);
+int t = scn.nextInt();
+for(int i = 1; i <= t; i++){
+int a = scn.nextInt();
+int b = scn.nextInt();
+System.out.println(a+b);
+}
+}
+}
+//Q.5
+import java.util.Scanner;
+public class Main {
+public static void main(String[] args) {
+Scanner scn = new Scanner(System.in);
+while(scn.hasNextLine()){
+String a = scn.next();
+String b = scn.next();
+System.out.println(a+b);
+}
+  }
+  
+  
